@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./main.css" rel="stylesheet" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        </div>
+        <div>
+          <h1>
+            Check Your Location's Weather
+          </h1>
+        </div>
+      </div>
+      <div>
+        <form id="search">
+          <div>
+            <label>Enter a city</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Type a city here"
+            />
+          </div>
+          <div class="">
+            <button
+              type="submit">
+              Search
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <div>
+        <div>
+          <p id="location">Your City</p>
+          <div>
+            <p id="temp">-</p>
+          </div>
+          <div id="forecast">Forecast</div>
+        </div>
+        <div id="hi-lo-humid">
+          <div>
+            <p>High</p>
+            <hr />
+            <p>-</p>
+          </div>
+          <div>
+            <p>Low</p>
+            <hr />
+            <p>-</p>
+          </div>
+          <div>
+            <p>Humidity</p>
+            <hr />
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
